@@ -67,7 +67,7 @@ $(document).ready(function() {
 	//	alert("say GO");
 		$.ajax({
 			type:"POST",
-			url:"loginscript.php",
+			url:"http://10.248.25.125/test/phonepapp/papp/loginscript.php",
 			data: $('#loginform').serialize(),
 			success: function(msg){
 				if (msg == false) {
