@@ -54,12 +54,7 @@
 	<script src="js/application.min.js"></script>
 	<!-- Just for demonstration -->
 	<script src="js/demonstration.min.js"></script>
-            <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="barcodescanner.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+            
     
 
 	<!--[if lte IE 9]>
@@ -154,7 +149,7 @@ return false;
 	</div>	<div class="container-fluid" id="content">
 	  <div id="main">
 		  <div class="container-fluid">
-		   
+		   <div class="app">
 				<div class="row-fluid">
 					<div class="span12"></div>
 				</div>
@@ -209,9 +204,15 @@ return false;
 				<div class="row-fluid">
 					<div class="span12"></div>
 				</div>
-		</div>
+		</div></div>
 	  </div></div>
-		
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="barcodescanner.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>		
 	</body>
 
 	</html>
