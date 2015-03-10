@@ -38,23 +38,9 @@ body {
 
 /* Portrait layout (default) */
 .app {
-	margin-left:auto;
-	margin-right:auto;
-	height:auto;
-	text-align:center;
 	
-}
-h6{
-	color:#000;
-}
-/*	background: url(../img/logo.png)*/ 
-h1 {
-    font-size:24px;
-    font-weight:normal;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
+	
+
 }
 
 .event {
